@@ -6,9 +6,13 @@ header.masthead .profile-pic img-fluid{
     border-radius: 50% !important;
 }
 
-section#my-skills .container .card .skill-badge img{
+#my-skills .container .card .skill-badge img{
 height: 20px !important;
 width:20px !important;
 background-color: white;
 
+}
+
+#contact-me a .fa-linkedin .fa-square-git:hover{
+    color: black !important;
 }
