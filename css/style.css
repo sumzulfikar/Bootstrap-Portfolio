@@ -6,7 +6,7 @@ header.masthead .profile-pic img-fluid{
     border-radius: 50% !important;
 }
 
-.my-skills.card.skill-badge img{
+section#my-skills .container .card .skill-badge img{
 height: 20px !important;
 width:20px !important;
 background-color: white;
