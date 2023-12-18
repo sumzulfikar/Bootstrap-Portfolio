@@ -225,7 +225,7 @@
         <div class="container text-center">
             <div class="row justify-content-md-center">
               <div class="col col-lg-2">
-                <h2>Contact Me</h2>
+                <h2>Socials</h2>
               </div>
               <div class="col-md-auto">
                 <a href="https://www.linkedin.com/in/sumaiya-zulfikar/"><i class="fa-brands fa-linkedin fa-5x"></i></a>
@@ -235,16 +235,66 @@
               </div>
             </div>
           </div>
-
-
     </section>
+    <!--A section with contact form -->
+    <!-- Form input area -->
+    <form class="row g-3">
+        <div class="col-md-12">
+            <div class="input-group">
+                <span class="input-group-text">First and Last name</span>
+                <input type="text" aria-label="First name" class="form-control">
+                <input type="text" aria-label="Last name" class="form-control">
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="mb-3">
+                <label for="form-control-input" class="form-label">Your Email address</label>
+                <input type="email" class="form-control" id="form-control-input" placeholder="name@example.com">
+            </div>
+          
+        </div>
+        <div class="col-12">
+            <div class="mb-3">
+                <label for="form-control-text-area" class="form-label">Your Message</label>
+                <textarea class="form-control" id="form-control-text-area" rows="3"></textarea>
+            </div>
+        </div>
+         <!-- Button to trigger modal -->
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">Send</button>
+        </div>
+      </form>
+    
+          
+    <!-- Modal pop up area -->
+    <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modal-label" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="modal-label">Thank You!</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                <div class="modal-body">
+                    <h5>Will get back to you shortly!</h5>
+                 </div>
+                 <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+                </div>
+            </div>
+    </div>
+
+   
 
     </main>
 
 
     <!--This is the footer section with hover effect-->
     <footer>
+     <section class="copyright">
+        <h6><i class="fa-regular fa-copyright"></i>2023 All Rights Reserved</h6>
 
+     </section>
 
 
     </footer>

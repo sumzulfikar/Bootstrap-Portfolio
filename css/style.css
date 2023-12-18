@@ -13,6 +13,6 @@ background-color: white;
 
 }
 
-#contact-me a .fa-linkedin .fa-square-git:hover{
-    color: black !important;
+ .fa-brands:hover{
+    background-color: black !important;
 }
