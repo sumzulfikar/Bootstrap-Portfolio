@@ -16,7 +16,7 @@
 <body>
    
     <!-- Navigation bar linking to different sections of this portfolio -->
-    <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary" style="background-color: blue;">
+    <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary" >
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Menu</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -66,7 +66,7 @@
 
     <!--A section about me -->
    
-    <section id="about-me" style="background-color: aqua;">
+    <section id="about-me" >
        <div class="container">
             <div class="row">
                 <div class="col-lg-2">
@@ -86,18 +86,18 @@
     <!--A section to showcase my skills  -->
    
     <section id="my-skills">
-        <div class="container text-left">
+        <div class="container">
             <div class="row">
-              <div class="col-sm-1">
+              <div class="col-sm-2">
                <h2>My Skills</h2>
               </div>
-              <div class="col-sm-11">
+              <div class="col-sm-10">
                 <div class="row">
                   <div class="col-lg-4 col-sm-12">
                     <div class="card" style="width: 18rem;">
                         <img src="./images/html.png" class="card-img-top skill-badge" alt="html5 logo">
                         <div class="card-body">
-                          <h5 class="card-title">HTML5</h5>
+                          <h5 class="card-title">HTML</h5>
                           <p class="card-text">Making code easier to read for users and screen readers.</p>
                         </div>
                       </div>
@@ -173,7 +173,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm">
+               <div class="col-sm">
                     <div class="card" style="width: 18rem;">
                         <a href="https://sumzulfikar.github.io/Horiseon-Accessibility-Optimization/">
                             <img src="./images/seo.PNG" class="card-img-top" alt="Marketing project website">
@@ -185,49 +185,50 @@
                           <a href="https://github.com/sumzulfikar/Horiseon-Accessibility-Optimization?tab=readme-ov-file" class="card-link">Github Repository: <i class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
-                    </div>
+                </div>
                 </div>
                 <div class="col-sm">
                     <div class="card" style="width: 18rem;">
-                        <a href="https://sumzulfikar.github.io/Horiseon-Accessibility-Optimization/">
-                        <img src="./images/seo.PNG" class="card-img-top" alt="Marketing project website">
+                        <a href="https://sumzulfikar.github.io/Travel_California//">
+                        <img src="https://placehold.co/600x400/000000/FFFFFF/png" class="card-img-top" alt="Travel project website">
                         </a>
-                    </div>
+                    
                     <div class="card-body">
                         <h5 class="card-title">Project Objective</h5>
-                        <p class="card-text">Ensuring that Horiseon Marketing agency's webite follows accessibility standards and increasing Search Engine Optimization.</p>
+                        <p class="card-text">Travel Agency website to visit California.</p>
                         <div class="card-body">
-                        <a href="https://github.com/sumzulfikar/Horiseon-Accessibility-Optimization?tab=readme-ov-file" class="card-link">Github Repository: <i class="fa-brands fa-github"></i></a>
+                        <a href="https://github.com/sumzulfikar/Travel_California/tree/main" class="card-link">Github Repository: <i class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
-
+                </div>
                 </div>
                 <div class="col-sm">
                     <div class="card" style="width: 18rem;">
-                        <a href="https://sumzulfikar.github.io/Horiseon-Accessibility-Optimization/">
-                            <img src="./images/seo.PNG" class="card-img-top" alt="Marketing project website">
+                        <a href="https://sumzulfikar.github.io/prework-study-guide/">
+                            <img src="./images/studyguide.PNG" class="card-img-top" alt="Student studyguide project website">
                         </a>
-                    </div>
+                    
                     <div class="card-body">
                         <h5 class="card-title">Project Objective</h5>
-                        <p class="card-text">Ensuring that Horiseon Marketing agency's webite follows accessibility standards and increasing Search Engine Optimization.</p>
+                        <p class="card-text">The Prework Study Guide project is a web application that enables boot camp students to view the prework notes in a structured webpage so that can easily find and read the information.</p>
                         <div class="card-body">
-                          <a href="https://github.com/sumzulfikar/Horiseon-Accessibility-Optimization?tab=readme-ov-file" class="card-link">Github Repository: <i class="fa-brands fa-github"></i></a>
+                          <a href="https://github.com/sumzulfikar/prework-study-guide" class="card-link">Github Repository: <i class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
                 </div>
-               </div>
-          </div>
+                </div>
+            </div>
+        </div>
     </section>
    
     <!--A section with social links to contact me -->
     <section id="contact-me">
         <div class="container text-center">
-            <div class="row justify-content-md-center">
+            <div class="row justify-content-md-flex-start">
               <div class="col col-lg-2">
                 <h2>Socials</h2>
               </div>
-              <div class="col-md-auto">
+              <div class="col-lg-2">
                 <a href="https://www.linkedin.com/in/sumaiya-zulfikar/"><i class="fa-brands fa-linkedin fa-5x"></i></a>
               </div>
               <div class="col col-lg-2">
@@ -238,22 +239,29 @@
     </section>
     <!--A section with contact form -->
     <!-- Form input area -->
-    <form class="row g-3">
-        <div class="col-md-12">
+    <section id="contact-form">
+        <div class="container">
+        <div class="row">
+            <div class="col-md-10">
+                <h2>Get in touch!</h2>
+            </div>
+        </div>
+    <form class="row g-3 justify-content-md-center" >
+        <div class="col-md-8">
             <div class="input-group">
                 <span class="input-group-text">First and Last name</span>
                 <input type="text" aria-label="First name" class="form-control">
                 <input type="text" aria-label="Last name" class="form-control">
             </div>
         </div>
-        <div class="col-md-12">
+        <div class="col-md-8">
             <div class="mb-3">
                 <label for="form-control-input" class="form-label">Your Email address</label>
                 <input type="email" class="form-control" id="form-control-input" placeholder="name@example.com">
             </div>
           
         </div>
-        <div class="col-12">
+        <div class="col-8">
             <div class="mb-3">
                 <label for="form-control-text-area" class="form-label">Your Message</label>
                 <textarea class="form-control" id="form-control-text-area" rows="3"></textarea>
@@ -261,10 +269,10 @@
         </div>
          <!-- Button to trigger modal -->
         <div class="col-12">
-            <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">Send</button>
+            <button type="button" class="btn btn-primary btn-lg btn-block " data-bs-toggle="modal" data-bs-target="#modal">Send</button>
         </div>
       </form>
-    
+    </div>
           
     <!-- Modal pop up area -->
     <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modal-label" aria-hidden="true">
@@ -284,7 +292,7 @@
             </div>
     </div>
 
-   
+    </section>
 
     </main>
 

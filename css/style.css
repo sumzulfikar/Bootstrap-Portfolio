@@ -1,18 +1,55 @@
+
+/* Global style definition of the webpage */
 :root{
     font-family: 'Roboto'!important;
+    --light:#dee7e8;
+    --pop:#ec5743;
+    --yellow:#fc9a1f;
+    --white:white;
+    --text:#1c1c1e; 
+    
 }
 
-header.masthead .profile-pic img-fluid{
-    border-radius: 50% !important;
+/* Seperate style definition body of the webpage from hero section */
+
+body{
+    background-color: var(--light);
+    color: var(--text);
 }
 
-#my-skills .container .card .skill-badge img{
-height: 20px !important;
-width:20px !important;
-background-color: white;
+/* Text style definition of the webpage */
 
+h1 , h2 , h3 , h4 {
+    margin-top: 36px;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: left;
+    color: var(--bs-heading-color);
 }
+
+/* Style definition of each sections  */
+
+.card ,#my-skills,#contact-me, #about-me p{
+    margin-top: 36px;
+    margin-bottom: 1.5rem;  
+}
+
+#my-skills, #contact-me, #about-me, #contact-form{
+    border: solid 1px var(--yellow);
+}
+
+
+/* Style definition for images in my skills section */
+
+.skill-badge {
+    width: 50px;
+    position:relative;
+    align-items: center;
+}
+
 
  .fa-brands:hover{
-    background-color: black !important;
+    background-color: yellow !important;
 }
+
