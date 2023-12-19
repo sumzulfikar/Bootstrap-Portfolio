@@ -6,6 +6,7 @@
     --yellow:#fc9a1f;
     --white:white;
     --text:#1c1c1e; 
+    --shadow:#f3a69c;
     
 }
 
@@ -18,14 +19,14 @@
 }
 
 .nav-link:hover{
-    background-color:#f3a69c; 
+    background-color:var(--shadow);
    }
 .navbar ,.navbar-nav {
     margin-left: auto;
     margin-right: 0 !important;
   }
   .nav-item {
-    margin: 0px 10px;
+    margin: 0px 10px 0px;
   }
 /* Text style definition of the webpage */
 
@@ -41,11 +42,12 @@ h1 , h2 , h3 , h4 {
 /* Style definition of each sections in the body, note this is seperate from hero section */
 
 body{
+    margin-top: 12px !important;
     background-color: var(--light);
     color: var(--text);
 }
 
-.card ,#contact-me, #about-me p{
+footer p,.card ,#contact-me, #about-me p{
     margin-top: 36px;
     margin-bottom: 1.5rem;  
 }
@@ -65,6 +67,11 @@ body{
 
 
  .fa-brands:hover{
-    background-color: yellow !important;
+    background-color:var(--shadow)!important;
+}
+
+/* Style definition for button shadow */
+.btn{
+box-shadow: 1px 2px 5px #000000;   
 }
 
