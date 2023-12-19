@@ -1,4 +1,3 @@
-
 /* Global style definition of the webpage */
 :root{
     font-family: 'Roboto'!important;
@@ -10,13 +9,24 @@
     
 }
 
-/* Seperate style definition body of the webpage from hero section */
+/* Customising the navigation */
 
-body{
-    background-color: var(--light);
-    color: var(--text);
+.navbar, .nav-link {
+   background-color: var(--pop);
+ --bs-navbar-active-color: var(--white) !important;
+ --bs-nav-link-color:var(--white) !important;
 }
 
+.nav-link:hover{
+    background-color:#f3a69c; 
+   }
+.navbar ,.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .nav-item {
+    margin: 0px 10px;
+  }
 /* Text style definition of the webpage */
 
 h1 , h2 , h3 , h4 {
@@ -28,14 +38,19 @@ h1 , h2 , h3 , h4 {
     color: var(--bs-heading-color);
 }
 
-/* Style definition of each sections  */
+/* Style definition of each sections in the body, note this is seperate from hero section */
 
-.card ,#my-skills,#contact-me, #about-me p{
+body{
+    background-color: var(--light);
+    color: var(--text);
+}
+
+.card ,#contact-me, #about-me p{
     margin-top: 36px;
     margin-bottom: 1.5rem;  
 }
 
-#my-skills, #contact-me, #about-me, #contact-form{
+#my-skills, #contact-me, #about-me{
     border: solid 1px var(--yellow);
 }
 
@@ -44,9 +59,10 @@ h1 , h2 , h3 , h4 {
 
 .skill-badge {
     width: 50px;
-    position:relative;
+    
+    position:relative; 
     align-items: center;
-}
+} 
 
 
  .fa-brands:hover{
